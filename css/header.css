@@ -1,0 +1,51 @@
+
+#head{
+width:100%;
+height:100vh;
+background: url("../asset/bg.jpg") center;
+background-size:cover;
+
+}
+
+
+#head .container{
+padding-top:80px;
+
+}
+
+#head:before{
+content:"";
+
+position:absolute;
+bottom:0;
+top:0;
+left:0;
+right:0;
+
+}
+
+.logo{
+width: 10%;
+}
+
+
+
+@media screen and (min-width: 200px) and (max-width: 600px) {
+  #head {
+       background: url("../asset/bg-sm.jpg") center !important;
+       width:100%;
+       height:100vh;
+       background-size:cover;
+  }
+ 
+.logo{
+position : relative;
+
+top : -100px;
+width:200px;
+}
+  
+}
+
+
+
